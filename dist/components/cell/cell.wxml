@@ -1,0 +1,20 @@
+
+<view class="{{ cellClass }}" style="{{ customStyle }}" bind:tap="onClick">
+    <shery-icon wx:if="{{ icon }}" name="{{ icon }}" custom-class="shery-cell__left-icon" />
+    <slot wx:else name="icon" />
+    <view style="{{ titleStyle }}" class="shery-cell__title title-class">
+        <block wx:if="{{ title }}">
+            {{ title }}
+            <view wx:if="{{ label }}" class="shery-cell__label label-class">{{ label }}</view>
+        </block>
+        <slot wx:else name="title" />
+    </view>
+
+    <view class="shery-cell__value value-class">
+        <view wx:if="{{ value }}">{{ value }}</view>
+        <slot wx:else />
+    </view>
+    <shery-icon wx:if="{{ isLink }}" name="arrow" custom-class="shery-cell__right-icon" />
+    <slot wx:else name="right-icon" />
+    <slot name="extra" />
+</view>

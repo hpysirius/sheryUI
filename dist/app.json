@@ -1,0 +1,1 @@
+{"pages":["pages/index/index","pages/logs/logs"],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"信息系统","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8","navigationStyle":"custom","backgroundTextStyle":"dark"},"subpackages":[{"root":"shiku","pages":["pages/home/index"]}]}

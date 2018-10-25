@@ -1,0 +1,4 @@
+
+<view class="custom-class shery-row" style="{{ style }}">
+    <slot />
+</view>

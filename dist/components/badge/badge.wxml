@@ -1,0 +1,5 @@
+
+<view class="shery-badge shery-hairline custom-class {{ active ? 'shery-badge--active' : '' }}" bind:tap="onClick">
+    <view wx:if="{{ info }}" class="shery-badge__info">{{ info }}</view>
+    {{ title }}
+</view>

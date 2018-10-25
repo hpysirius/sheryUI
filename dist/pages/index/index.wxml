@@ -1,0 +1,31 @@
+
+<view class="home-box">
+    <view class="home-box__header">
+        <image src="http://pic12.secooimg.com/comment/18/10/e98a45cca4de4c489b6619d4f1d225eb.GIF" />
+    </view>
+    <view class="home-box__toptic">
+        <view class="home-box__titem"></view>
+        <view class="home-box__titem"></view>
+        <view class="home-box__titem"></view>
+    </view>
+    <view class="home-box__foor">
+        <image src="http://pic12.secooimg.com/comment/18/10/09e4974b34814bcaaf0ba8564066bbc4.jpg"/>
+    </view>
+    <view class="home-box__ad">
+        <image src="http://pic12.secooimg.com/comment/18/10/f353b01042a146768ff0a809845a96e7.jpg" />
+    </view>
+    <view class="home-box__tlist">
+        <view class="home-box__tp">
+            <view class="home-box__tp-l"></view>
+            <view class="home-box__tp-r"></view>
+        </view>
+        <view class="home-box__tp home-box__tp--two">
+            <view class="home-box__tp-l"></view>
+            <view class="home-box__tp-r"></view>
+        </view>
+        <view class="home-box__tp home-box__tp--three">
+            <view class="home-box__tp-l"></view>
+            <view class="home-box__tp-r"></view>
+        </view>
+    </view>
+</view>

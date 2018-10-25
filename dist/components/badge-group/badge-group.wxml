@@ -1,0 +1,4 @@
+
+ <view class="shery-badge-group shery-hairline--top-bottom custom-class">
+  <slot />
+</view>

@@ -1,0 +1,4 @@
+
+<view class="custom-class shery-cell-group {{ border ? 'shery-hairline--top-bottom' : '' }}">
+    <slot />
+</view>
