@@ -3,7 +3,5 @@ import './vendor';
 
 
 App({
-  globalData: {
-    
-  }
+  globalData: {}
 })
